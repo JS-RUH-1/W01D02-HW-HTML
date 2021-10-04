@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+#F_section img{
+    width: 100%;
+}
+
+#S_sectoon {
+    background-color: rgba(202, 202, 202, 0.555);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+#S_sectoon .contact {
+    margin-bottom: 10px;
+}
+#S_sectoon form {
+    margin: 10px;
+    text-align: left;
+}
+table, th, td {
+    border: 1px solid gray;
+}
