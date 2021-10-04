@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        h2 , p {
+           text-align: center; 
+        }
+        img , table{
+            text-align: center; width:100%;
+        }
+        body{
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+}
+
+        table, th, td {         
+          border: 1px solid black;
+          text-align: center;
+
+        }
+
+    th {
+  background-color: #4c87af;
+  color: white;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+
+}
+input[type=text] ,select ,textarea ,option {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  width: 100%;
+  background-color: #4c87af;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+ </style>
+ 
+<img  src="images/ContactUs.jpeg" alt="ContactUs">
+
+</head>
+<body>
+    <h2 >Contact Us Form</h2>
+    <div>
+        <p >We Will try to get back to you as fast as possible</p>
+
+        <form>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="fname" placeholder="Your name .."><br>
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lname" placeholder="Your last name .."><br>
+            <label for="country">Country</label>
+            <select name="country">
+                <option value="Australia">Australia</option>
+                <option value="Albania">Albania</option>
+                <option value="Egypt">Egypt	</option>
+                <option value="Saudi Arabia">Saudi Arabia</option>
+              </select> <br>
+              <label for="Subject">Subject</label>
+              <textarea name="Subject" rows="15" cols="25" placeholder="Write somthing.."></textarea><br>
+              <input type="submit">
+
+        </form>
+    
+        <h2 >You can contact use also through:</h2>
+        <table >
+            <tr>
+            <th>call us</th>
+            <td>12345678</td>
+        </tr>
+        <tr>
+            <th>Email us</th>
+            <td>organization@gmail.com</td>
+        </tr>
+        </table>
+        <ul>
+            <li><a href="www.twitter.com">Twitter</a></li>
+            <li><a href="www.facebook.com">Facebook</a></li>
+            <li><a href="www.linkedin.com">LinkdIn</a></li>
+
+        </ul>
+    </div>
+</body>
+
+</html>
