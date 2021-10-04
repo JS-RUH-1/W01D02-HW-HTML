@@ -3,72 +3,146 @@
 <head>
     <style>
 
-table, td {
-  border: 1px solid black;
+table, td{
+  border: solid black;
+  background-color: lightblue;
+ 
 }
 .center{
     text-align: center;
 }
+    
+    body {
+background-color: antiquewhite;
+
+    }
+input,select ,textarea{
+
+  border-radius: 4px;  
+}
+    
+     
+    .x {
+   background-color: rgb(166, 186, 204);
+   
+   border-radius: 5px;
+   column-count: 2;
+    
+    
+   width: 80%;
+ background-color :rgb(197, 159, 159);
+  padding: 20px;
+ border-color: rgb(94, 31, 12);
+ border-style: solid;
+
+ padding-right: 4px;
+ padding-left: 4px;
+border-radius: 0px;
+text-align: center;
+margin-left: 80px;
+margin-bottom: 50px;
+ 
+}
+
     </style>
 </head>
 
 <body>
-    <img src="images/ContactUs.jpeg" alt="">
-<div class="center"> 
-    <h1>  Contant Us Form</h1></div>
-    <p>We will try to go back to you as first as possible</p>
+    <img src="images/ContactUs.jpeg" alt="Tools of contact" width="100%" height="200px">
+ 
+    <h1 class="center">  Contant Us Form</h1> 
+    <br>
+     
+   <h3>  <p class ="center">We will try to go back to you as first as possible .</p></h3>
+   <br>
 
+ <div > 
 
 <form action="">
 
-<label for="fname">First Name :
-</label>
-<input type="text">
-<br><br>
-<label for="lname">Last Name :
-</label>
-<input type="text">
-<br><br>
-<label for="country">country:
-</label>
-<select name ="country" id ="country">
+    <div  class="x"> 
+  <br>
 
+<label for="fname">First Name :</label>
+
+<input type="text" placeholder=" Enter your first name">
+<br><br>
+
+<label for="lname">Last Name :</label>
+<input type="text" placeholder=" Enter your Last name">
+<br> <br>
+
+<label for="country">country:</label>
+<select name ="country" id ="country" >
     <option value="Riyadh">Riyadh</option>
     <option value="Jeddh">Jeddh</option>
-
-
+    <option value="Riyadh">Abha</option>
+    <option value="Jeddh">Arar</option>
 </select>
  
-<br><br>
-<label for="subject">Subject:
-</label>
+<br><br><br>
+<label for="subject">Messag: </label>
+  <br> 
+<textarea  id="subject" cols="30" rows="5" placeholder=" Enter your messge"></textarea>
+ <br><br><br>
+<input type="submit" value="Submit">
 
-<br><br>
-<textarea name="subject" id="subject" cols="30" rows="10"></textarea>
 </form>
 
-<p><strong>You can contact use also through :</strong></p>
-
-<table>
-<tr>
-    <td><strong>call us</strong>  </td>
-     <td>12345678</td>
+ 
+    
+      <br><br><br>
+        <br>
+    <table>
+        <br>
+        <tr>
+            <th><strong>You can contact use also through :</strong></th>
+        </tr>
+    <tr>
+           <td> <ul><li><strong>   call us</strong>   </td>
+         <td>12345678</td>
+    </tr>
+    <tr>
+    <td> <ul><li>  <strong>Email us</strong>  </td>
+    <td>organization@gmail.com</td>
+    
+    </tr>
+    <tr>
+         <td><ul><li>  <strong> Twitter us</strong> </li> </ul> </td>
+        <td>  
+               <a href=" Twitter "> Twitter 
+            </td>
+             
+    </tr>
+    <tr>
+        <td><ul><li> <strong>Facebook us</strong></li> </ul>   </td>
+       <td>  
+        <a href="Facebook"> Facebook 
+           </td>
+            
+   </tr>
+   <tr>
+    <td><ul><li><strong>LinkedIn us</strong></li> </ul>  </td>
+   <td>  
+    <a href="LinkedIn"> LinkedIn 
+       </td>
+        
 </tr>
-<tr>
-<td><strong>Email us</strong>  </td>
-<td>organization@gmail.com</td>
+    
+    </table>
+    <br>
+     
+     
+<br>
+</div>
 
-</tr>
-
-</table>
-<ul>
-<li><a href="Twitter"> Twitter</li>
-<li> <a href="Facebook"> Facebook</li>
-<li><a href="LinkedIn"> LinkedIn</li>
-
-</ul>
+ 
+ <br>
+</div>
+    
 
 
+ 
 
 </body>
 
