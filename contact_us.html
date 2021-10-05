@@ -3,8 +3,8 @@
         <head>
             <title>Contact us</title>
             <style>
-                table, th, td{
-                    border: 2px solid black;
+                .cont_table{
+                    border: 1px solid black;
                     border-collapse: collapse;
                     text-align: left;
                     padding: 5px;
@@ -12,40 +12,52 @@
                 label, select, input, textarea{
                     margin: 5px;
                 }
-
             </style>
         </head>
+
         <body>
             <img src="./images/ContactUs.jpeg" width="100%" height="200px" alt="contact us"><br>
-            <h2>Contact us form</h2><br>
+
+            <h2>Contact us form</h2>
             <p>We will try to get back to you as fast as possible</p><br>
             <form>
-                
-                <label for="fname">First name</label>
-                <input type="text" id="fname" name="fname"><br>
-                <label for="lname">Last name</label>
-                <input type="text" id="lname" name="lname"><br>
-                <label for="country">Country</label>
-                <select id="country" name="country">
-                    <option value="Saudi Arabia">Saudi Arabia</option>
-                    <option value="Kuwait">Kuwait</option>
-                    <option value="Emirats">Emirats</option>
-                    <option value="Qatar">Qatar</option>
-                </select><br>
-                <label for="subject">Subject</label>
-                <textarea id="subject" name="subject" rows="10" cols="50" placeholder="Write something.."></textarea><br>
-                <input type="submit" value="Submit">
+                <table>
+                    <tr>
+                        <td><label for="fname">First name</label></td>
+                        <td><input type="text" id="fname" name="fname"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="lname">Last name</label></td>
+                        <td><input type="text" id="lname" name="lname"><br></td>
+                    </tr>
+                    <tr>
+                        <td><label for="country">Country</label></td>
+                        <td><select id="country" name="country">
+                            <option value="Saudi Arabia">Saudi Arabia</option>
+                            <option value="Kuwait">Kuwait</option>
+                            <option value="Emirats">Emirats</option>
+                            <option value="Qatar">Qatar</option>
+                        </select><br></td>
+                    </tr>
+                    <tr>
+                        <td><label for="subject">Subject</label></td>
+                        <td><textarea id="subject" name="subject" rows="10" cols="50" placeholder="Write something.."></textarea><br></td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="Submit"></td>
+                    </tr>
+                </table>
+            </form>
 
-            </form><br>
             <h4>You can conact us also through:</h4>
-            <table id="cont_table">
+            <table class="cont_table">
                 <tr>
-                    <th style="width: 70px;">Phone</th>
-                    <td style="width: 200px;">12345678</td>
+                    <th class="cont_table" style="width: 70px;">Phone</th>
+                    <td class="cont_table" style="width: 200px;">12345678</td>
                 </tr>
                 <tr>
-                    <th>Email</th>
-                    <td>organization@email.com</td>
+                    <th class="cont_table">Email</th>
+                    <td class="cont_table">organization@email.com</td>
                 </tr>
             </table><br>
             <ul>
@@ -53,7 +65,6 @@
                 <li><a href="https://facebook.com">Facebook</a></li>
                 <li><a href="https://linkedin.com">Linkedin</a></li>
             </ul>
-
-
         </body>
+        
     </html>
